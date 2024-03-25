@@ -3,13 +3,9 @@ import TabPage from '../pageObjects/TabPage'
 import ProductPage from '../pageObjects/productPage'
 
 describe('Amazon Web Automation', () => {
-
-  before('Launch URL', () => {
-    cy.visit('/')
-  })
   
   it('Validate details of lowest priced item', () => {
-    
+    cy.visit('/')
     const landingPage = new LandingPage()
       landingPage.hamburgerMenu.click()
       cy.wait(2000)

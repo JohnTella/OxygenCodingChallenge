@@ -14,6 +14,8 @@
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^20.0.2"
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/browserify-preprocessor": "latest"
   }
 }
